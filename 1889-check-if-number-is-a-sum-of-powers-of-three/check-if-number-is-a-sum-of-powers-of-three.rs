@@ -15,10 +15,6 @@ impl Solution {
 
         n = n/3;
 
-        // if r < 0 {
-        //     n += 1;
-        // }
-
         return r != 2  && Solution::conv(n)
     }
 
